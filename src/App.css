@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.badge {
+  background-color: #f5c518;
+  color: black;
+  padding: 5px;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+
+table,
+table td {
+  border: 1px solid #ccc;
+}
+
+table td {
+  padding: 7px;
+}
+
+.pagination {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.pagination a {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  display: inline-block;
+  padding: 8px 16px;
+  transition: all .4s;
+}
+
+.pagination a:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.bg-primary {
+  background-color: #f3f3f3;
+}
+
+.p-60 {
+  padding: 60px 0px;
+}
+
+header {
+  height: 100px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.container-column {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.container-row {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.buttonQty{
+  width: 20px!important;
+  height: 30px!important;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding: 5px;
+  margin:0px 7px ;
+}
+.buttonQty:hover{
+  /* width: 20px!important;
+  height: 30px!important;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding: 5px;
+  margin:0px 7px; */
+  transform: none;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 30px;
+}
+li {
+  width: 60px;
+}
+li a {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  transition: all .4s;
+  border-radius: 12px;
+}
+
+li a:hover {
+  color: black;
+  background-color: white;
+}
+
+.slider {
+  width: 100%;
+  height: 360px;
+  background-image: url('./slide.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center center;
+  /* background-attachment: fixed; */
+}
+
+.products {
+  width: 960px;
+  padding: 20px 0px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.div-search{
+  text-align: center;
+}
+.spanMovies{
+  margin-right: 10px;
+  margin-bottom: 60px;
+  font-size: 23px;
+  padding: 10px;
+  letter-spacing: 2px;
+  
+}
+.search{
+  /* margin-left: 40%; */
+  margin-bottom: 60px;
+  border-radius: 10px;
+  width: 300px;
+  padding: 5px;
+  border: 1px solid black;
+  
+}
+
+.product {
+  padding: 10px;
+  border: 1px solid black;
+}
+.product:hover {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 12px;
+  width: 300px;
+}
+.product-image {
+  margin-right: 60px;
+}
+
+.product-image img {
+  width: 300px;
+}
+
+.product img {
+  display: block;
+  width: 180px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.product h3 {
+  height: 44px;
+}
+
+.product h3 a {
+  color: black;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.product h3 a:hover {
+  color: #f5c518;
+  text-decoration: underline;
+}
+
+.product a.details-btn {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  padding: 8px 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+a.details-btn:hover {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  padding: 8px 20px;
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.add-to-cart input {
+  border: 1px solid black;
+  padding: 5px 15px;
+  margin-right: 10px;
+}
+
+.add-to-cart button {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 6px 15px;
+}
+.add-to-cart button:hover {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  border-radius: 15px;
+  padding: 6px 15px;
+  transform: 4s;
+}
+
+
+.about {
+  padding: 60px 15%;
+  text-align: center;
+}
+.countItems{
+  font-size: 20px;
+  font: bold;
+}
+.countItems:hover{
+  font-size: 20px;
+  text-decoration: underline;
+  font: bold;
+}
+.buttonQty{
+  width: 20px!important;
+  height: 30px!important;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding: 5px;
+  margin:0px 7px ;
+}
+.buttonQty:hover{
+  /* width: 20px!important;
+  height: 30px!important;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding: 5px;
+  margin:0px 7px; */
+  transform: none;
+}
+/* .cartTable{
+  white-space: nowrap;
+} */
+.buttonDelete{
+  letter-spacing: 1px;
+  line-height: 5px;
+  height: 30px!important;
+  color: white;
+  background-color: black;
+  border-radius: 15px;
+  padding: 10px;
+  margin:0px 7px ;
+
+}
+
+footer {
+  padding: 10px 0px;
+  margin-top: 20px;
+  color: white;
+  background-color: black;
+}
+
+footer p {
+  text-align: center;
+}
+
+
+
+/* ---------- */
+button {
+  color: white;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.toggle {
+  position: absolute;
+  right: 0;
+  background: none;
+  font-size: 30px;
+  padding: 4px;
+}
+
+.tabs {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.tab {
+  text-align: center;
+  border-radius: 12px;
+  background-color: #edf2ff;
+  padding: 12px 24px;
+  margin-right: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  transition: all 0.3s;
+}
+
+.tab.active,
+.tab:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.tab-content {
+  text-align: center;
+  background-color: #edf2ff;
+  padding: 32px;
+  border-radius: 12px;
+}
+
+.tab-content h4 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: black;
+}
+
+.tab-content p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.tab-actions {
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.tab-actions > button {
+  background: none;
+  text-decoration: underline;
+  color: black;
+  font-size: 14px;
+  text-align: center;
+}
+
+.hearts-counter {
+ margin-top: 10px;
+  align-items: center;
+  gap: 8px;
+}
+
+.hearts-counter button {
+  background-color: #f03e3e;
+  padding: 4px 6px;
+  border-radius: 4px;
+  color: #fff;
+  line-height: 1;
+}
+
+.tab-undo {
+  display: flex;
+  gap: 8px;
+}
+
+.tab-undo button {
+  background-color: #364fc7;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
